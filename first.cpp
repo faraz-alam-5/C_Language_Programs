@@ -120,7 +120,18 @@ int main()
     // cout << sizeof(arr);    // complete size of string.
     // cout << sizeof(arr) / sizeof(string);
 
-    string food = "Pizza";
-    string meal = food;
-    cout << meal;
+    // string food = "Pizza";
+    // string meal = food;
+    // cout << meal;
+
+    string arr[2][3] = {{"A", "B", "C"}, {"D", "E", "F"}};
+    for (int i = 0; i < 2; i++)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            {
+                cout << arr[i][j] << "\n";
+            }
+        }
+    }
 }
