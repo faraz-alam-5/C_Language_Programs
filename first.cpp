@@ -124,14 +124,46 @@ int main()
     // string meal = food;
     // cout << meal;
 
-    string arr[2][3] = {{"A", "B", "C"}, {"D", "E", "F"}};
-    for (int i = 0; i < 2; i++)
+    //     string arr[2][3] = {{"A", "B", "C"}, {"D", "E", "F"}};
+    //     for (int i = 0; i < 2; i++)
+    //     {
+    //         for (int j = 0; j < 3; j++)
+    //         {
+    //             {
+    //                 cout << arr[i][j] << "\n";
+    //             }
+    //         }
+    //     }
+
+    // string food = "Pizza";
+    // string *ptr = &food;
+    // cout << food << "\n";
+    // cout << ptr << "\n";
+    // cout << *ptr << "\n";
+
+    // ----------Function-------
+
+    // void myFunc()
+    // {
+    //     cout << "Faraz";
+    // }
+    // int main()
+    // {
+    //     myFunc();
+    //     return 0;
+    // }
+
+    void myFunc();
+    int main()
     {
-        for (int j = 0; j < 3; j++)
-        {
-            {
-                cout << arr[i][j] << "\n";
-            }
-        }
+        myFunc("Faraz");
+        myFunc('Alam');
+        myFunc("Ammad");
+        return 0;
+    }
+
+    void myFunc(string fname)
+    {
+        cout << fname;
     }
 }
